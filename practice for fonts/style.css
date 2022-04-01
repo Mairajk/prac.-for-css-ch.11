@@ -1,0 +1,40 @@
+@font-face {
+    font-family: mk;
+    src: url( ./fonts/Roboto-Italic.ttf)
+    url(./fonts/Roboto-Thin.ttf)
+    url(./fonts/Roboto-BlackItalic.ttf);
+}
+
+h1.h1{
+    background-color: steelblue ;
+    color: coral;
+    font-family: mk;
+}
+
+p.para1{
+    background-color: coral;
+    color: steelblue;
+    font-family: mk;
+}
+
+h1.h1:hover{
+    background-color: black;
+    color : coral;
+}
+
+p.para1:hover{
+    background-color: rgb(241, 148, 114);
+    color: black;
+}
+
+
+.ul1,.ul2{
+    background-color: steelblue;
+    color: black;
+    text-decoration: none;
+}
+
+.ul:hover{
+    background-color: coral;
+    color: black;
+}
