@@ -75,3 +75,14 @@ p.thirteen {
 p.fourteen {
     background-color: rgb(0, 136, 221);
 }
+
+.ul1,.ul2{
+    background-color: steelblue;
+    color: black;
+    text-decoration: none;
+}
+
+.ul:hover{
+    background-color: coral;
+    color: black;
+}
