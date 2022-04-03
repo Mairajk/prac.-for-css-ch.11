@@ -41,22 +41,19 @@ p.intro:first-line{
     text-align: right;
 }
 
-a{
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-
-.ul1,.ul2{
-    background-color: steelblue;
+button{text-decoration: none;
     color: black;
-    text-decoration: none;
+    background-color: rgb(0, 136, 221);
+    border: 2px solid black ;
+border-radius: 10px 0px 10px 0px;
 }
+    
+    button:hover{
+        background-color: coral;
+        color: black;
+    }
 
-.ul:hover{
-    background-color: coral;
-    color: black;
-}
+    a{
+        color: black;
+        text-decoration: none;
+    }

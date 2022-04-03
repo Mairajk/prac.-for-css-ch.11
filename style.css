@@ -76,13 +76,25 @@ p.fourteen {
     background-color: rgb(0, 136, 221);
 }
 
-.ul1,.ul2{
-    background-color: steelblue;
+button
+{text-decoration: none;
+color: black;
+background-color: rgb(0, 136, 221);
+border: 2px solid black ;
+border-radius: 10px 0px 10px 0px;
+}
+
+button:hover{
+    background-color: coral;
+    color: black;
+   
+}
+
+a{
     color: black;
     text-decoration: none;
 }
 
-.ul:hover{
-    background-color: coral;
-    color: black;
+button{
+    border-radius: 2px,2px,2px,0px;
 }
