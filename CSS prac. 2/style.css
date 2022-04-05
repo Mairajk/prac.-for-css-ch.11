@@ -1,0 +1,47 @@
+h1{
+    background-color: wheat;
+    color: rgb(112, 56, 15) ;
+    text-align: center;
+    text-shadow: 3px 1px 2px  chocolate;
+    border: 1px solid rgb(112, 56, 15);
+}
+
+a{
+    background-color: rgb(112, 56, 15);
+    color:wheat;
+    text-decoration: none;
+}
+
+a:visited{
+    background-color: black;
+    color: white;
+}
+
+a:active{
+    color: darkcyan;
+    background-color: white;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-color: saddlebrown;
+    margin-left: 40%;
+    border: 5px solid black;
+    border-right-width: 0px ;
+    border-bottom-width: 0px;
+    box-shadow: 7px 7px 5px black;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+
+p{
+    height: 70%;
+    width: 70%;
+    background-color: bisque;
+    color: saddlebrown;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    overflow: scroll;
+}
